@@ -69,3 +69,11 @@ body {
     max-width: 200px; /* This is the most important part. Set a max-width to control the size. Adjust this value (e.g., 150px or 250px) until it looks good. */
     height: auto; /* This keeps the image from looking distorted by maintaining its aspect ratio. */
 }
+/* Style the large logo in the main content area */
+.main-logo {
+    width: 70%; /* Adjust this percentage to control its size */
+    max-width: 600px; /* Prevents it from getting too big on large screens */
+    height: auto; /* Keeps the logo from looking distorted */
+    display: block; /* Makes the image a block element */
+    margin: 0 auto; /* Centers the image horizontally on the page */
+}
