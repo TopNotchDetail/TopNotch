@@ -57,5 +57,5 @@ body {
   transform: scale(1.2);
 }
 .logo img { 
-  max-width: 50px;/* Adjust this value as needed */hieght auto;
+  max-width: 50px;/* Adjust this value as needed */hieght: auto;
 }
