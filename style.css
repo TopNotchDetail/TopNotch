@@ -77,3 +77,7 @@ body {
     display: block; /* Makes the image a block element */
     margin: 0 auto; /* Centers the image horizontally on the page */
 }
+del {
+    color: #888; /* A soft grey color to make it less prominent */
+    margin-left: 5px; /* Adds a small space between the new and old price */
+}
