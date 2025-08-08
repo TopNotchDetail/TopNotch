@@ -56,3 +56,6 @@ body {
 .social-links img:hover {
   transform: scale(1.2);
 }
+.logo img { 
+  max-width: 150px;/* Adjust this value as needed */hieght auto;
+}
