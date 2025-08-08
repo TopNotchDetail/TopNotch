@@ -56,6 +56,16 @@ body {
 .social-links img:hover {
   transform: scale(1.2);
 }
-.logo img { 
-  max-width: 50px;/* Adjust this value as needed */hieght: auto;
+/* First, we will style the header itself to contain the logo and navigation */
+.site-header {
+    display: flex; /* Use Flexbox to align items in a row */
+    justify-content: space-between; /* Pushes the logo to the left and navigation to the right */
+    align-items: center; /* Vertically centers the logo and navigation */
+    padding: 20px; /* Add some space around the logo and navigation from the edges */
+}
+
+/* Next, we will specifically target the logo image to control its size */
+.logo img {
+    max-width: 200px; /* This is the most important part. Set a max-width to control the size. Adjust this value (e.g., 150px or 250px) until it looks good. */
+    height: auto; /* This keeps the image from looking distorted by maintaining its aspect ratio. */
 }
